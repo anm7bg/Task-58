@@ -191,6 +191,14 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: red;
+}
+
 .main {
   height: 100vh;
   display: flex;
@@ -198,11 +206,4 @@ html {
   justify-content: center;
   font-size: 10rem;
   flex-flow: column;
-}
-.main .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 50px;
-  background: red;
 }/*# sourceMappingURL=app.css.map */
